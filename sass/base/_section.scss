@@ -1,0 +1,26 @@
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.section-half-bottom {
+  padding-top: 94px;
+  padding-bottom: 47px;
+}
+.section-half-top {
+  padding-top: 47px;
+  padding-bottom: 94px;
+}
+.section-clients {
+  padding-top: 94px;
+  padding-bottom: 91px;
+}
+.section-portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+
+  @media screen and (max-width: 1199px) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}

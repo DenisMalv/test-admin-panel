@@ -1,0 +1,27 @@
+/* <================ ""MAIN" content styles==============> */
+// utils ==
+@import './utils/variable';
+@import './utils/visually-hidden';
+
+// base ==
+@import './base/common';
+@import './base/container';
+@import './base/section';
+
+// components ==
+@import './components/section-title';
+@import './components/social-list';
+@import './components/wraper-description';
+@import './components/menu-modal';
+
+// layout ==
+@import './layout/header';
+@import './layout/hero';
+@import './layout/prefs';
+@import './layout/what-we-do';
+@import './layout/our-team';
+@import './layout/clients';
+@import './layout/footer';
+@import './layout/page-portfolio';
+@import './layout/backdrop';
+@import './layout/modal';

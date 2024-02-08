@@ -1,0 +1,41 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/*<================ Global stylesheets ===========> */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+img {
+  display: block;
+}
+body {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+  letter-spacing: 0.03em;
+
+  color: var(--text-color-standart);
+}
+
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+.flex {
+  display: flex;
+}
